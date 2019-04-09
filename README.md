@@ -4,10 +4,10 @@
 
 ## Related Projects
 
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
-  - https://github.com/teamName/repo
+  - https://github.com/professor-6/service_sydney
+  - https://github.com/professor-6/service-reservation-aysun
+  - https://github.com/professor-6/service-menu-rebecca
+  - https://github.com/professor-6/service_reviews_ike
 
 ## Table of Contents
 
