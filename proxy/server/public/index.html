@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>OpenTable</title>
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+</head>
+
+<body>
+  <div id="app-overview"></div>
+  <div id="reservation"></div>
+  <div id="menu"></div>
+  <div id="app-reviews"></div>
+  <script src="/lib/react.development.js"></script>
+  <script src="/lib/react-dom.development.js"></script>
+  <script src="http://localhost:3003/bundle.js"></script>
+  <script src="http://localhost:3001/bundle.js"></script>
+  <script src="http://localhost:3004/bundle.js"></script>
+  <script src="http://localhost:3002/bundle.js"></script>
+  <script>
+    ReactDOM.render(
+      React.createElement(Overview),
+      document.getElementById("app-overview")
+    );
+    ReactDOM.render(
+      React.createElement(Reservation),
+      document.getElementById("reservation")
+    );
+    ReactDOM.render(
+      React.createElement(Menu),
+      document.getElementById("menu")
+    );
+    ReactDOM.render(
+      React.createElement(Reviews),
+      document.getElementById("app-reviews")
+    );
+  </script>
+</body>
+
+</html>
