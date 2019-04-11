@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>OpenTable</title>
+  <link rel="stylesheet" type="text/css" href="styles-overview.css">
+  <link rel="stylesheet" type="text/css" href="styles-reservation.css">
+  <link rel="stylesheet" type="text/css" href="styles-menu.css">
+  <link rel="stylesheet" type="text/css" href="styles-reviews.css">
+  <link rel="stylesheet" type="text/css" href="styles-review_summary.css">
+</head>
+<body>
+  <div id="app-overview"></div>
+  <div id="reservation"></div>
+  <div id="menu"></div>
+  <div id="app-reviews"></div>
+    <script src="/lib/react.development.js"></script>
+    <script src="/lib/react-dom.development.js"></script>
+    <script src="http://localhost:3003/bundle.js"></script>
+    <script src="http://localhost:3001/bundle.js"></script>
+    <script src="http://localhost:3004/bundle.js"></script>
+    <script src="http://localhost:3002/bundle.js"></script>
+<script>
+ReactDOM.render(
+  React.CreateElement(Overview),
+  document.getElementById("app-overview")
+);
+ReactDOM.render(
+  React.CreateElement(Reservation),
+  document.getElementById("reservation")
+);
+ReactDOM.render(
+  React.CreateElement(Menu),
+  document.getElementById("menu")
+);
+ReactDOM.render(
+  React.CreateElement(Reviews),
+  document.getElementById("app-reviews")
+);
+</script>
+</body>
+</html>
