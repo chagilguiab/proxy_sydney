@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 });
 
 app.use(
-  '/ratings_ambience/:id',
+  '/ratings/ambience/:id',
   proxy({ target: 'http://localhost:3001/', changeOrigin: true })
 );
 
